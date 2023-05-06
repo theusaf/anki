@@ -122,8 +122,10 @@ consider adding a unit test at the same time.
 
 ## Code Style
 
-Please use standard Python snake_case variable names and functions in newly
-introduced code. Because add-ons often rely on existing function names, if
+Please use standard Python snake_case variable names and functions in newly introduced code written in Python and Rust.
+For TypeScript code, please use camelCase or PascalCase.
+
+Because add-ons often rely on existing function names, if
 renaming an existing function, please add a legacy alias to the old function.
 
 ## Do One Thing
