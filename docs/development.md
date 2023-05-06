@@ -155,6 +155,10 @@ If you invoke Rust outside of the build scripts (eg by running cargo, or
 with Rust Analyzer), output files will go into `target/` unless you have
 overriden the default output location.
 
+## Architecture
+
+For a brief overview of the codebase, please see [this page](./architecture.md).
+
 ## IDEs
 
 Please see [this separate page](./editing.md) for setting up an editor/IDE.
